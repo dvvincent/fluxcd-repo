@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
-ind: Kustomization
+kind: Kustomization
 # List all resources to be applied
-esources:
+resources:
  - app1/deployment.yaml
  # Add other resources as needed
